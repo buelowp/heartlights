@@ -1,0 +1,2 @@
+# Control 3V LED light string
+There are a plethora of LED light strings that run on two AA batteries, low power, not very bright, but decorative. Generally, these are on and off, with a little switch on the battery terminal. However, it is possible to drive these lights using a 3v3 regulator and an ESP8266 processor. I chose the Wemos D1 mini for size, as I only need power and one pin. It's MQTT based, and I attach to my own internal MQTT server for simplicity. On othe other side right now is a simple Android app that allows me to remotely turn the lights on and off.
